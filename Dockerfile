@@ -13,6 +13,7 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # unblock port 80 for the Flask app to run on
 EXPOSE 80
+ENV PYTHONUNBUFFERED=1
 
 # execute the Flask app
 CMD ["python", "web/run.py"]

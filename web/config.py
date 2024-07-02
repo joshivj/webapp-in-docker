@@ -13,4 +13,5 @@ DB_PWD = os.environ.get('DB_PWD')
 DB_PORT = os.environ.get('DB_PORT')
 CONNECTION_STRING = f"host={DB_HOST} dbname={DB_NAME} user={DB_USER} " \
                                  f"password={DB_PWD} port={DB_PORT}"
+ENABLE_CACHE = True
 
