@@ -13,3 +13,4 @@ services:
           - redis
       environment:
         - DB_HOST=host.docker.internal
+        - PYTHONUNBUFFERED=1
