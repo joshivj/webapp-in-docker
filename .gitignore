@@ -1,0 +1,109 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Flask specific files
+instance/
+*.db
+*.sqlite3
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pytest_cache/*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.env.*
+.venv
+.venv.*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+
+# Local Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.pid
+*.out
+*.bak
+*.orig
+*.save
+*.rej
+*.sublime-project
+*.sublime-workspace
+*.nix-channels
+*.nix-defexpr
+*.nix-profile
+*.orig
+*.rej
+*.scssc
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PyCharm project files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore all the DS_Store files in all directories.
+.DS_Store
+

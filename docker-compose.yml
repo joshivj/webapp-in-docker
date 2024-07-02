@@ -1,0 +1,15 @@
+services:
+   redis:
+     image: redislabs/redismod
+     ports:
+       - '6379:6379'
+   web:
+      build: .
+      ports:
+          - "5001:5001"
+      volumes:
+          - .:/app
+      depends_on:
+          - redis
+      environment:
+        - DB_HOST=host.docker.internal
